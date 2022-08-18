@@ -5,6 +5,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(./images/smiley.jpg);
+    background-size: cover;
 }
 
 .frame {
@@ -12,28 +14,35 @@ body {
     /* background-color: blue; */
     border: 1px solid grey;
     border-radius: 5px;
-    margin: 10px;
+    /* margin: 10px; */
+    border: 5px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    height: 360px;
 }
 
 .display {
-    width: 100%;
-    height: 100px;
-    background-color: black;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    /* width: 100%;
+    height: 100px; */
+    background-color: rgba(255, 255, 87, 0.898);
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
     display: flex;
     align-items: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 
 .keyboard {
     width: 100%;
     /* height: 100%;  */
-    background-color: lightgreen;
+    background-color: rgba(255, 255, 87, 0.898);
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding-bottom: 50px;
     /* margin: 50px 0 20px 0; */
 }
 
@@ -66,7 +75,7 @@ body {
     border: 1px solid grey;
     border-radius: 5px;
     margin: 5px;
-    background-color: rgba(3, 255, 100, 0.56);
+    background-color: rgb(253, 253, 50);
 }
 
 .keyboard__key {
@@ -84,7 +93,7 @@ body {
 .keyboard__key_equal {
     width: 40px;
     height: 190px;
-    background-color: rgba(3, 255, 100, 0.56);
+    background-color: rgb(253, 253, 50);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +103,7 @@ body {
 }
 
 .special-key {
-    background-color: rgba(3, 255, 100, 0.56);
+    background-color: rgb(253, 253, 50);
 }
 
 p {
@@ -115,9 +124,10 @@ a {
 
 .display_screen {
     width: 100%;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.693);
     text-align: right;
     font-size: 3rem;
     overflow: hidden;
+    border-radius: 50px;
 }
