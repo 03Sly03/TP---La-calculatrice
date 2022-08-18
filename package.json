@@ -1,0 +1,23 @@
+{
+  "name": "tp---la-calculatrice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/03Sly03/TP---La-calculatrice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/03Sly03/TP---La-calculatrice/issues"
+  },
+  "homepage": "https://github.com/03Sly03/TP---La-calculatrice#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
